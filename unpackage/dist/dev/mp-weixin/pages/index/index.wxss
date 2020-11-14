@@ -1,0 +1,114 @@
+
+.container {
+	font-size: 14px;
+	line-height: 24px;
+}
+/* 导航栏 */
+.index_nav {
+	background-color: #FF0066;
+	height: 60px;
+}
+/* 搜索框 */
+.index_search {
+	height: 30px;
+	line-height: 13px;
+	background-color: #FF0066;
+	width: 100%;
+	text-align: center;
+	box-sizing: border-box;
+	border-radius: 13px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+}
+.index_search_box {
+	height: 100%;
+	width: 5%;
+	background-color: #FF0066;
+}
+.index_search_input {
+	width: 90%;
+	height: 100%;
+}
+.index_search_input input {
+	width: 100%;
+	height: 100%;
+	font-size: 12px;
+	display: inline-block;
+	border-radius: 30rpx;
+	background-color: #FFF;
+}
+/* 分类bar */
+.nav_category {
+	height: 30px;
+	width: 100%;
+	white-space: nowrap; /* 段落文本不进行换行*/
+	background-color: #FF0066;
+}
+.nav_category_box {
+	height: 100%;
+	width: 60px;
+	line-height: 30px;
+	color: #FFFFFF;
+	display: inline-block;
+	text-align: center;
+	font-size: 12px;
+}
+/* 搜索过滤 */
+.filter_condition {
+	display: block;
+	height: 30px;
+	widows: 100%;
+}
+.filter_condition ._span {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	height: 12px;
+	width: 12px;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+}
+.icon-taobao {
+	color: #f40;
+}
+.icon-tianmao1 {
+	color: #FF0036;
+}
+.icon-pinduoduo1 {
+	color: #fc475d;
+}
+/* 商品列表 */
+.goods_list {
+	width: 100%;
+	height: 700px;
+	background-color: #4CD964;
+}
+.goods_list .goods_content {
+	height: 130px;
+	width: 100%;
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	border: 1px solid;
+	padding-bottom: 7px;
+}
+.goods_list .goods_content_img {
+	width: 45%;
+	height: 100%;
+	background-color: #E6A23C;
+	border-radius: 5px;
+}
+.goods_list .goods_content_info {
+	width: 55%;
+	height: 100%;
+	background-color: #F56C6C;
+}
+
