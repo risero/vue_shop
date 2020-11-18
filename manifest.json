@@ -1,7 +1,7 @@
 {
-    "name" : "helloworld",
+    "name" : "优惠卷领劵宝",
     "appid" : "__UNI__21A911E",
-    "description" : "",
+    "description" : "免费领取各大电商平台的优惠卷",
     "versionName" : "1.0.0",
     "versionCode" : "100",
     "transformPx" : false,
@@ -37,14 +37,18 @@
                 ]
             },
             "ios" : {},
-            "sdkConfigs" : {}
+            "sdkConfigs" : {
+                "ad" : {},
+                "oauth" : {}
+            }
         }
     },
     "quickapp" : {},
     "mp-weixin" : {
-        "appid" : "",
+        "appid" : "wx9a0f371d8f569749",
         "setting" : {
-            "urlCheck" : true
+            "urlCheck" : true,
+            "minified" : false
         }
     }
 }

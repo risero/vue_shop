@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/good_detail",
     "pages/index/index"
   ],
   "subPackages": [],
@@ -15,7 +16,7 @@
     "list": [
       {
         "text": "首页",
-        "pagePath": "pages/index/index"
+        "pagePath": "pages/good_detail"
       },
       {
         "text": "拼团",
@@ -31,10 +32,10 @@
       },
       {
         "text": "我的",
-        "pagePath": "pages/index/index"
+        "pagePath": "pages/good_detail"
       }
     ]
   },
   "usingComponents": {},
-  "sitemapLocation": "sitemap56.json"
+  "sitemapLocation": "sitemap91.json"
 }

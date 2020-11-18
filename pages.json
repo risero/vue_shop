@@ -1,12 +1,22 @@
 {
-	"pages": [{
-		"path": "pages/index/index",
-		"style": {
-			"navigationBarTitleText": "优惠卷领卷宝",
-			"navigationBarBackgroundColor": "#FF0066",
-			"navigationBarTextStyle": "white"
+	"pages": [
+		{
+			"path": "pages/good_detail",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"navigationBarBackgroundColor": "#FF0066",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "优惠卷领卷宝",
+				"navigationBarBackgroundColor": "#FF0066",
+				"navigationBarTextStyle": "white"
+			}
 		}
-	}],
+	],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "uni-app",
@@ -19,7 +29,7 @@
 		"list": [
 			{
 				"text": "首页",
-				"pagePath": "pages/index/index"
+				"pagePath": "pages/good_detail"
 			}, {
 				"text": "拼团",
 				"pagePath": "pages/index/index"
@@ -31,7 +41,7 @@
 				"pagePath": "pages/index/index"
 			}, {
 				"text": "我的",
-				"pagePath": "pages/index/index"
+				"pagePath": "pages/good_detail"
 			}
 		]
 	}

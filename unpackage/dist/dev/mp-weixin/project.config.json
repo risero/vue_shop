@@ -4,12 +4,13 @@
     "ignore": []
   },
   "setting": {
-    "urlCheck": true
+    "urlCheck": true,
+    "minified": false
   },
   "compileType": "miniprogram",
   "libVersion": "",
-  "appid": "touristappid",
-  "projectname": "helloworld",
+  "appid": "wx9a0f371d8f569749",
+  "projectname": "优惠卷领劵宝",
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
   "condition": {
