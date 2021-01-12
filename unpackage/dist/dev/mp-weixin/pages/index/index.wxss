@@ -203,7 +203,8 @@
           justify-content: space-between;
   color: #fc4d52;
 }
-.discount_info .discount_info_left .discount_text.data-v-57280228, .price_unit.data-v-57280228 {
+.discount_info .discount_info_left .discount_text.data-v-57280228,
+.price_unit.data-v-57280228 {
   font-size: 14px;
 }
 .discount_info .discount_info_left .discount_price.data-v-57280228 {
@@ -215,7 +216,8 @@
   margin-right: 10px;
   text-decoration: line-through;
 }
-.discount_shop.data-v-57280228, .shop_area.data-v-57280228 {
+.discount_shop.data-v-57280228,
+.shop_area.data-v-57280228 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;

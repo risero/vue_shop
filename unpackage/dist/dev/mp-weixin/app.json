@@ -16,26 +16,14 @@
     "list": [
       {
         "text": "首页",
-        "pagePath": "pages/good_detail"
+        "pagePath": "pages/index/index"
       },
       {
         "text": "拼团",
-        "pagePath": "pages/index/index"
-      },
-      {
-        "text": "主题",
-        "pagePath": "pages/index/index"
-      },
-      {
-        "text": "排行",
-        "pagePath": "pages/index/index"
-      },
-      {
-        "text": "我的",
         "pagePath": "pages/good_detail"
       }
     ]
   },
   "usingComponents": {},
-  "sitemapLocation": "sitemap91.json"
+  "sitemapLocation": "sitemap92.json"
 }

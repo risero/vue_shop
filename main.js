@@ -1,5 +1,7 @@
 import Vue from 'vue'
 import App from './App'
+import http from '@/common/request.js'
+Vue.prototype.$http = http
 import '@/static/font/iconfont.css'
 Vue.config.productionTip = false
 
